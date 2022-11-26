@@ -6,11 +6,11 @@ img{
 
 @keyframes spin {
    0%{
-    rotate: (360deg);
+    none;
    }
 
     25%{
-        transform: translateX(1000px) rotate(360deg);
+        transform: translateX(1000px) rotate(180deg);
     }
 
     50%{
@@ -18,11 +18,11 @@ img{
     }
     
     75%{
-        transform: translateY(700px) rotate(360deg);
+        transform: translateX(10px) translateY(700px) rotate(-360deg);
     }
 
     100%{
-        rotate: (360deg);
+        none;
     }
 
     
